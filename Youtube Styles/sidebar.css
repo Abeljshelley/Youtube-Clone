@@ -1,0 +1,32 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    padding: 5px;
+    z-index: 200;
+}
+.sidebar-link:hover{
+    background-color: lightgray; 
+
+}
+.sidebar-link{
+    height: 74px;
+    width: 72px;
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.home-icon,.explore-icon,.subscriptions-icon,.originals-icon,.ytmusic-icon,.library-icon{
+    height: 24px;
+    width: 24px;
+    color: rgb(33, 37, 41);
+    margin-bottom: 5px;
+}
