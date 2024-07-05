@@ -13,14 +13,15 @@
     <link rel="stylesheet" href="Youtube Styles/sidebar.css">
 </head>
         <body>
+            <script src="index.js"></script>
             <div class="header">
                 <div class="left">
                     <img class="hamburger" src="Icons/hamburger-menu.svg">
                     <img class="logo" src="Icons/youtube-logo.svg">
                 </div>
                 <div class="middle">
-                    <input class="search-bar" type="text" placeholder="Search">
-                    <button class="search-button">
+                    <input class="search-bar" type="text" placeholder="Search" onkeydown="keydownfunction(event)">
+                    <button class="search-button" onClick="search()">
                         <img class="search-icon" src="Icons/search.svg">
                         <div class="tooltip">Search</div>
                     </button>
