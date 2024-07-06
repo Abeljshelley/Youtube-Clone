@@ -69,7 +69,6 @@
   border-style: solid;
   border-color: rgb(192, 192, 192);
   border-radius: 3px;
-  box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
   width: 0;
 }
 .search-bar::placeholder {
@@ -155,6 +154,36 @@
   align-items: center;
   cursor: pointer;
 }
+
+.searchBox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 60%;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  margin-right: 10px;
+  padding:5px;
+
+  input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+
+  button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding:0;
+    margin: 0;
+    border-left: 1px solid #0000004a;
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .search-bar {
     width: 30vw;
@@ -164,7 +193,7 @@
   }
   .header{
     width: 100%;
-    height: auto;
+    height: 50px;
     position: fixed;
   }
   .hamburger{
@@ -175,5 +204,18 @@
   }
   .left{
     margin-left: 5px;
+  }
+
+  .searchBox{
+    width: 80%;
+    height: 60%;
+
+    button{
+      width: 20%;
+    }
+  }
+  .middle{
+    margin:0;
+    justify-content: flex-end;
   }
 }
