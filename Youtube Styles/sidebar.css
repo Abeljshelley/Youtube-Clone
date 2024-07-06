@@ -45,4 +45,7 @@
     z-index: 1000;
     justify-content: space-between; 
   }
+  .ytm{
+    display: none;
+  }
 }

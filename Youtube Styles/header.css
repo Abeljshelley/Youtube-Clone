@@ -157,9 +157,9 @@
 }
 @media screen and (max-width: 768px) {
   .search-bar {
-    width: 50vw;
+    width: 30vw;
   }
-  .right {
+  .right,.voice-search-button {
     display: none;
   }
   .header{
@@ -172,5 +172,8 @@
   }
   .search-button{
     margin-right: 0px;
+  }
+  .left{
+    margin-left: 5px;
   }
 }
