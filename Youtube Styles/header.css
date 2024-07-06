@@ -45,7 +45,7 @@
   cursor: pointer;
 }
 .search-button {
-  height: 39px;
+  height: 40px;
   width: 66px;
   border-width: 1px;
   border-style: solid;
@@ -155,9 +155,22 @@
   align-items: center;
   cursor: pointer;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .search-bar {
-    width: 30vw;
+    width: 50vw;
   }
-  
+  .right {
+    display: none;
+  }
+  .header{
+    width: 100%;
+    height: auto;
+    position: fixed;
+  }
+  .hamburger{
+    display: none;
+  }
+  .search-button{
+    margin-right: 0px;
+  }
 }

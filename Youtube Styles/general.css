@@ -12,9 +12,16 @@ body {
   height: 1500px;
   
 }
-@media screen and (max-width: 768px;) {
-  body{
+@media screen and (max-width: 768px){
+  body{ 
+    display: flex;
     width: 100vw;
+    height: auto;
+    padding: 10px;
+    align-items: center;
   }
-  
+  html{
+    display: flex;
+    align-items: center;
+  }
 }

@@ -53,10 +53,30 @@
   text-decoration: none;
   color: black;
 }
-@media screen and (max-width: 768px){
-
+@media screen and (max-width: 768px) {
   .video-grid {
-    width: 200vw;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  .thumbnail,.profile-pic{
+    max-width: 100%;
+    height: auto;
+  }
+  .video-author,.video-stats{
+    font-size: 0.75rem;
+    display: inline-block;
+  }
+  .video-grid{
+    padding-right: 0px;
+  }
+  .video-title{
+    display: flex;
+    align-items: center;
+  }
+  .video-info-grid{
+    justify-content: space-between;
   }
 }
-
